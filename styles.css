@@ -41,12 +41,13 @@ button:hover {
 }
 .header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column; /* empile les éléments */
+    align-items: center;   /* centre horizontalement */
     background-color: brown;
     color: white;
     padding: 15px;
 }
+
 
 nav a {
     color: white;
